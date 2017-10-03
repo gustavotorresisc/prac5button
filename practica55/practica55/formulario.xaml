@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="practica55.formulario">
+    
+
+        <ScrollView HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="Azure" >
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+
+                <Label Text="Datos Generales" IsEnabled="False"></Label>
+                <!--<Entry x:Name="boxNombre" Placeholder="Ingresa tu nombre" IsVisible="False"></Entry>
+        <Entry x:Name="boxApellido" Placeholder="Ingresa tu apellido" Text="gustavo" IsEnabled="True"></Entry>
+        <Entry x:Name="boxSemestre" Placeholder="Ingresa tu semestre" IsPassword="True"></Entry>
+        <Entry x:Name="boxMatricula" Placeholder="Ingresa tu matricula" Keyboard="Numeric"></Entry>
+        <Button Text="Editar" Clicked="BtnSave_Clicked1"></Button>-->
+                <Entry x:Name="boxNombre" Placeholder="Ingresa tu nombre"></Entry>
+                <Entry x:Name="boxApellido" Placeholder="Ingresa tu apellidos" ></Entry>
+                <Entry x:Name="boxDireccion" Placeholder="Ingresa tu direccion"></Entry>
+                <Entry x:Name="boxTelefono" Placeholder="Ingresa tu telefono" Keyboard="Numeric"></Entry>
+
+                <Label Text="Datos Escolares" IsEnabled="False"></Label>
+                <Entry x:Name="boxCarrera" Placeholder="Ingresa tu carrera"></Entry>
+                <Entry x:Name="boxSemestre" Placeholder="Ingresa tu semestre" ></Entry>
+                <Entry x:Name="boxMatricula" Placeholder="Ingresa tu matricula" Keyboard="Numeric"></Entry>
+
+                <Label Text="Datos Sociales" IsEnabled="False"></Label>
+                <Entry x:Name="boxCorreo" Placeholder="Ingresa tu correo"></Entry>
+                <Entry x:Name="boxGithub" Placeholder="Ingresa tu github"></Entry>
+
+                <Button Text="Guardar" x:Name="btnSave" Clicked="BtnSave_Clicked"></Button>
+                <Button Text="Editar" Clicked="BtnEdit_Clicked"></Button>
+                <Button Text="Regresar" Clicked="RegForm_Clicked"></Button>
+                <Button Text="Calculadora" Clicked="calcu_Clicked"></Button>
+
+
+            </StackLayout>
+        </ScrollView>
+
+    
+</ContentPage>

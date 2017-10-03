@@ -1,0 +1,2 @@
+C:\Users\Gustavo\source\repos\practica55\practica55\practica55.UWP\practica55.UWP.csproj;x86
+C:\Users\Gustavo\source\repos\practica55\practica55\practica55\practica55.csproj;neutral
